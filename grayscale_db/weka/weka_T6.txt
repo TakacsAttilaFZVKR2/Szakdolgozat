@@ -1,0 +1,350 @@
+2-es kvantálási szint
+
+=== Summary ===
+
+Correctly Classified Instances          71               14.2    %
+Incorrectly Classified Instances       429               85.8    %
+Kappa statistic                          0.0467
+Mean absolute error                      0.1718
+Root mean squared error                  0.4098
+Relative absolute error                 95.4348 %
+Root relative squared error            136.5903 %
+Total Number of Instances              500     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,180    0,078    0,205      0,180    0,191      0,108    0,551     0,119     auto
+                 0,200    0,078    0,222      0,200    0,211      0,128    0,561     0,124     fa
+                 0,220    0,098    0,200      0,220    0,210      0,117    0,561     0,122     gyumolcs
+                 0,200    0,087    0,204      0,200    0,202      0,114    0,557     0,121     hal
+                 0,080    0,118    0,070      0,080    0,075      -0,036   0,481     0,098     kutya
+                 0,100    0,102    0,098      0,100    0,099      -0,002   0,499     0,100     macska
+                 0,140    0,078    0,167      0,140    0,152      0,067    0,531     0,109     madar
+                 0,100    0,102    0,098      0,100    0,099      -0,002   0,499     0,100     peksutemeny
+                 0,120    0,120    0,100      0,120    0,109      0,000    0,500     0,100     rovar
+                 0,080    0,093    0,087      0,080    0,083      -0,014   0,493     0,099     virag
+Weighted Avg.    0,142    0,095    0,145      0,142    0,143      0,048    0,523     0,109     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+  9  5  5  2  6  2  4  6 10  1 |  a = auto
+  4 10  2  2 10  2  2  7  7  4 |  b = fa
+  4  2 11  4  3  5  5  8  6  2 |  c = gyumolcs
+  4  1  4 10  4  3  7  0  5 12 |  d = hal
+  5  5  4  3  4  9  3  6  5  6 |  e = kutya
+  4  3  7  2 10  5  6  6  4  3 |  f = macska
+  3  3  7  7  5  6  7  3  6  3 |  g = madar
+  4  6  8  0  7  7  2  5  5  6 |  h = peksutemeny
+  6  9  4  4  5  4  4  3  6  5 |  i = rovar
+  1  1  3 15  3  8  2  7  6  4 |  j = virag
+
+/////////////////////////////////////////////////////////////////////////////////
+
+4-es kvantálási szint
+
+=== Summary ===
+
+Correctly Classified Instances          66               13.2    %
+Incorrectly Classified Instances       434               86.8    %
+Kappa statistic                          0.0356
+Mean absolute error                      0.1737
+Root mean squared error                  0.4122
+Relative absolute error                 96.5217 %
+Root relative squared error            137.3837 %
+Total Number of Instances              500     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,120    0,087    0,133      0,120    0,126      0,035    0,517     0,104     auto
+                 0,140    0,078    0,167      0,140    0,152      0,067    0,531     0,109     fa
+                 0,140    0,084    0,156      0,140    0,147      0,058    0,528     0,108     gyumolcs
+                 0,220    0,071    0,256      0,220    0,237      0,159    0,574     0,134     hal
+                 0,060    0,127    0,050      0,060    0,055      -0,062   0,467     0,097     kutya
+                 0,140    0,127    0,109      0,140    0,123      0,012    0,507     0,101     macska
+                 0,080    0,093    0,087      0,080    0,083      -0,014   0,493     0,099     madar
+                 0,100    0,089    0,111      0,100    0,105      0,012    0,506     0,101     peksutemeny
+                 0,120    0,111    0,107      0,120    0,113      0,008    0,504     0,101     rovar
+                 0,200    0,098    0,185      0,200    0,192      0,099    0,551     0,117     virag
+Weighted Avg.    0,132    0,096    0,136      0,132    0,133      0,038    0,518     0,107     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+  6  4  1  3  6  9  6  3  8  4 |  a = auto
+  4  7  6  0  7  7  4  5  7  3 |  b = fa
+  4  6  7  6  3  7  5  4  3  5 |  c = gyumolcs
+  6  1  5 11  2  8  3  4  2  8 |  d = hal
+  4  5  4  2  3  7  2  4 10  9 |  e = kutya
+  5  3  4  5  6  7  3  4  9  4 |  f = macska
+  4  3  6  5  8  2  4  8  5  5 |  g = madar
+  2  7  4  1 11  3  8  5  4  5 |  h = peksutemeny
+  5  4  3  3  9  9  7  3  6  1 |  i = rovar
+  5  2  5  7  5  5  4  5  2 10 |  j = virag
+
+/////////////////////////////////////////////////////////////////////////////////
+
+8-as kvantálási szint
+
+=== Summary ===
+
+Correctly Classified Instances          77               15.4    %
+Incorrectly Classified Instances       423               84.6    %
+Kappa statistic                          0.06  
+Mean absolute error                      0.1694
+Root mean squared error                  0.4069
+Relative absolute error                 94.1304 %
+Root relative squared error            135.632  %
+Total Number of Instances              500     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,040    0,098    0,043      0,040    0,042      -0,060   0,471     0,098     auto
+                 0,380    0,109    0,279      0,380    0,322      0,237    0,636     0,168     fa
+                 0,080    0,089    0,091      0,080    0,085      -0,009   0,496     0,099     gyumolcs
+                 0,280    0,089    0,259      0,280    0,269      0,185    0,596     0,145     hal
+                 0,120    0,093    0,125      0,120    0,122      0,027    0,513     0,103     kutya
+                 0,120    0,102    0,115      0,120    0,118      0,017    0,509     0,102     macska
+                 0,120    0,096    0,122      0,120    0,121      0,025    0,512     0,103     madar
+                 0,080    0,098    0,083      0,080    0,082      -0,018   0,491     0,099     peksutemeny
+                 0,160    0,104    0,145      0,160    0,152      0,053    0,528     0,107     rovar
+                 0,160    0,062    0,222      0,160    0,186      0,113    0,549     0,120     virag
+Weighted Avg.    0,154    0,094    0,149      0,154    0,150      0,057    0,530     0,114     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+  2  8  3  4  8  5  7  5  4  4 |  a = auto
+  2 19  1  0  6  4  3  6  8  1 |  b = fa
+  6  3  4  9  3  5  5  4  5  6 |  c = gyumolcs
+  5  0  4 14  6  5  6  4  4  2 |  d = hal
+  4  8  5  3  6  6  6  6  3  3 |  e = kutya
+  5 10  6  3  4  6  5  4  6  1 |  f = macska
+ 10  2  3  5  3  6  6  5  6  4 |  g = madar
+  5  7  5  5  4  5  5  4  8  2 |  h = peksutemeny
+  4 10  2  5  3  5  3  5  8  5 |  i = rovar
+  3  1 11  6  5  5  3  5  3  8 |  j = virag
+
+/////////////////////////////////////////////////////////////////////////////////
+
+16-os kvantálási szint
+
+=== Summary ===
+
+Correctly Classified Instances          94               18.8    %
+Incorrectly Classified Instances       406               81.2    %
+Kappa statistic                          0.0978
+Mean absolute error                      0.1628
+Root mean squared error                  0.3986
+Relative absolute error                 90.4348 %
+Root relative squared error            132.8793 %
+Total Number of Instances              500     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,140    0,080    0,163      0,140    0,151      0,064    0,530     0,109     auto
+                 0,480    0,127    0,296      0,480    0,366      0,288    0,677     0,194     fa
+                 0,180    0,078    0,205      0,180    0,191      0,108    0,551     0,119     gyumolcs
+                 0,180    0,064    0,237      0,180    0,205      0,131    0,558     0,125     hal
+                 0,100    0,096    0,104      0,100    0,102      0,005    0,502     0,100     kutya
+                 0,260    0,136    0,176      0,260    0,210      0,105    0,562     0,120     macska
+                 0,120    0,080    0,143      0,120    0,130      0,043    0,520     0,105     madar
+                 0,140    0,089    0,149      0,140    0,144      0,053    0,526     0,107     peksutemeny
+                 0,120    0,096    0,122      0,120    0,121      0,025    0,512     0,103     rovar
+                 0,160    0,058    0,235      0,160    0,190      0,122    0,551     0,122     virag
+Weighted Avg.    0,188    0,090    0,183      0,188    0,181      0,094    0,549     0,120     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+  7 12  4  5  6  4  4  3  3  2 |  a = auto
+  4 24  3  2  2  3  4  5  3  0 |  b = fa
+  5  6  9  1  4  7  2  4  6  6 |  c = gyumolcs
+  5  1  2  9  8  9  6  3  3  4 |  d = hal
+  6  8  5  2  5  7  3  7  3  4 |  e = kutya
+  3 10  2  5  2 13  3  6  4  2 |  f = macska
+  5  7  3  2  2  6  6  5 11  3 |  g = madar
+  3  2  7  5  6  9  3  7  6  2 |  h = peksutemeny
+  2  9  2  2  4  8  9  5  6  3 |  i = rovar
+  3  2  7  5  9  8  2  2  4  8 |  j = virag
+
+/////////////////////////////////////////////////////////////////////////////////
+
+32-es kvantálási szint
+
+=== Summary ===
+
+Correctly Classified Instances          84               16.8    %
+Incorrectly Classified Instances       416               83.2    %
+Kappa statistic                          0.0756
+Mean absolute error                      0.1667
+Root mean squared error                  0.4035
+Relative absolute error                 92.6087 %
+Root relative squared error            134.5053 %
+Total Number of Instances              500     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,120    0,062    0,176      0,120    0,143      0,069    0,529     0,109     auto
+                 0,380    0,216    0,164      0,380    0,229      0,117    0,582     0,124     fa
+                 0,100    0,084    0,116      0,100    0,108      0,017    0,508     0,102     gyumolcs
+                 0,060    0,084    0,073      0,060    0,066      -0,027   0,488     0,098     hal
+                 0,180    0,082    0,196      0,180    0,187      0,101    0,549     0,117     kutya
+                 0,240    0,129    0,171      0,240    0,200      0,096    0,556     0,117     macska
+                 0,180    0,044    0,310      0,180    0,228      0,174    0,568     0,138     madar
+                 0,200    0,100    0,182      0,200    0,190      0,096    0,550     0,116     peksutemeny
+                 0,120    0,069    0,162      0,120    0,138      0,059    0,526     0,107     rovar
+                 0,100    0,053    0,172      0,100    0,127      0,060    0,523     0,107     virag
+Weighted Avg.    0,168    0,092    0,172      0,168    0,162      0,076    0,538     0,114     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+  6 13  0  6  3  9  3  4  1  5 |  a = auto
+  2 19  0  4  1  7  4  9  4  0 |  b = fa
+  4  8  5  4  5  8  2  6  3  5 |  c = gyumolcs
+  8 10  6  3  6  7  2  3  2  3 |  d = hal
+  4  8  8  5  9  3  0  6  4  3 |  e = kutya
+  2 14  2  6  1 12  4  4  4  1 |  f = macska
+  1 13  2  5  5  4  9  1  8  2 |  g = madar
+  3 13  8  3  5  5  0 10  2  1 |  h = peksutemeny
+  1 10  3  2  3 11  5  5  6  4 |  i = rovar
+  3  8  9  3  8  4  0  7  3  5 |  j = virag
+
+/////////////////////////////////////////////////////////////////////////////////
+
+64-es kvantálási szint
+
+=== Summary ===
+
+Correctly Classified Instances          82               16.4    %
+Incorrectly Classified Instances       418               83.6    %
+Kappa statistic                          0.0711
+Mean absolute error                      0.1675
+Root mean squared error                  0.4045
+Relative absolute error                 93.0435 %
+Root relative squared error            134.8282 %
+Total Number of Instances              500     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,100    0,071    0,135      0,100    0,115      0,033    0,514     0,104     auto
+                 0,460    0,184    0,217      0,460    0,295      0,202    0,638     0,154     fa
+                 0,100    0,098    0,102      0,100    0,101      0,002    0,501     0,100     gyumolcs
+                 0,100    0,076    0,128      0,100    0,112      0,027    0,512     0,103     hal
+                 0,140    0,082    0,159      0,140    0,149      0,061    0,529     0,108     kutya
+                 0,200    0,129    0,147      0,200    0,169      0,062    0,536     0,109     macska
+                 0,060    0,060    0,100      0,060    0,075      0,000    0,500     0,100     madar
+                 0,180    0,096    0,173      0,180    0,176      0,083    0,542     0,113     peksutemeny
+                 0,220    0,091    0,212      0,220    0,216      0,127    0,564     0,125     rovar
+                 0,080    0,042    0,174      0,080    0,110      0,054    0,519     0,106     virag
+Weighted Avg.    0,164    0,093    0,155      0,164    0,152      0,065    0,536     0,112     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+  5 12  2  5  4  9  2  5  3  3 |  a = auto
+  1 23  1  3  1  3  2  5  8  3 |  b = fa
+  2 10  5  3  7  6  1  6  5  5 |  c = gyumolcs
+  5  5  6  5  5 10  4  3  5  2 |  d = hal
+  4  8  5  3  7  7  5  6  4  1 |  e = kutya
+  3 12  6  4  0 10  2  7  6  0 |  f = macska
+  3 14  3  3  9  7  3  1  6  1 |  g = madar
+  4  7 10  4  4  3  3  9  4  2 |  h = peksutemeny
+  2 10  2  2  3 10  6  2 11  2 |  i = rovar
+  8  5  9  7  4  3  2  8  0  4 |  j = virag
+
+/////////////////////////////////////////////////////////////////////////////////
+
+128-as kvantálási szint
+
+=== Summary ===
+
+Correctly Classified Instances          75               15      %
+Incorrectly Classified Instances       425               85      %
+Kappa statistic                          0.0556
+Mean absolute error                      0.1702
+Root mean squared error                  0.4079
+Relative absolute error                 94.5652 %
+Root relative squared error            135.9521 %
+Total Number of Instances              500     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,120    0,071    0,158      0,120    0,136      0,055    0,524     0,107     auto
+                 0,360    0,207    0,162      0,360    0,224      0,111    0,577     0,122     fa
+                 0,100    0,073    0,132      0,100    0,114      0,030    0,513     0,103     gyumolcs
+                 0,100    0,064    0,147      0,100    0,119      0,042    0,518     0,105     hal
+                 0,100    0,093    0,106      0,100    0,103      0,007    0,503     0,101     kutya
+                 0,300    0,169    0,165      0,300    0,213      0,102    0,566     0,119     macska
+                 0,080    0,056    0,138      0,080    0,101      0,031    0,512     0,103     madar
+                 0,200    0,102    0,179      0,200    0,189      0,093    0,549     0,116     peksutemeny
+                 0,120    0,078    0,146      0,120    0,132      0,046    0,521     0,106     rovar
+                 0,020    0,031    0,067      0,020    0,031      -0,020   0,494     0,099     virag
+Weighted Avg.    0,150    0,094    0,140      0,150    0,136      0,050    0,528     0,108     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+  6 10  1  3  7 13  2  3  3  2 |  a = auto
+  4 18  1  3  2  6  1  8  7  0 |  b = fa
+  1 11  5  3 11  6  1  5  5  2 |  c = gyumolcs
+  5 11  4  5  3  7  7  3  2  3 |  d = hal
+  2 13  4  3  5  6  5  3  6  3 |  e = kutya
+  3  9  2  3  2 15  2  9  4  1 |  f = macska
+  4  9  3  4  6 10  4  2  6  2 |  g = madar
+  5 12  7  2  4  8  0 10  1  1 |  h = peksutemeny
+  2 11  2  3  3 14  5  4  6  0 |  i = rovar
+  6  7  9  5  4  6  2  9  1  1 |  j = virag
+
+/////////////////////////////////////////////////////////////////////////////////
+
+256-os kvantálási szint
+
+=== Summary ===
+
+Correctly Classified Instances          74               14.8    %
+Incorrectly Classified Instances       426               85.2    %
+Kappa statistic                          0.0533
+Mean absolute error                      0.1706
+Root mean squared error                  0.4083
+Relative absolute error                 94.7826 %
+Root relative squared error            136.112  %
+Total Number of Instances              500     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0,080    0,069    0,114      0,080    0,094      0,013    0,506     0,101     auto
+                 0,520    0,189    0,234      0,520    0,323      0,239    0,666     0,170     fa
+                 0,180    0,087    0,188      0,180    0,184      0,095    0,547     0,116     gyumolcs
+                 0,040    0,051    0,080      0,040    0,053      -0,015   0,494     0,099     hal
+                 0,080    0,082    0,098      0,080    0,088      -0,002   0,499     0,100     kutya
+                 0,220    0,198    0,110      0,220    0,147      0,017    0,511     0,102     macska
+                 0,060    0,044    0,130      0,060    0,082      0,022    0,508     0,102     madar
+                 0,220    0,131    0,157      0,220    0,183      0,077    0,544     0,113     peksutemeny
+                 0,080    0,084    0,095      0,080    0,087      -0,005   0,498     0,100     rovar
+                 0,000    0,011    0,000      0,000    0,000      -0,034   0,494     0,100     virag
+Weighted Avg.    0,148    0,095    0,121      0,148    0,124      0,041    0,527     0,110     
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j   <-- classified as
+  4  9  2  2  4 13  3  8  4  1 |  a = auto
+  1 26  2  1  1  6  1  8  4  0 |  b = fa
+  3  3  9  5  6 11  1  9  3  0 |  c = gyumolcs
+  4 10 10  2  7  6  3  2  5  1 |  d = hal
+  2 12  4  1  4 12  2  6  7  0 |  e = kutya
+  4 11  1  5  4 11  1  9  3  1 |  f = macska
+  5 10  3  2  2 14  3  4  7  0 |  g = madar
+  3  9  8  2  5  6  2 11  3  1 |  h = peksutemeny
+  3 13  2  1  1 14  6  5  4  1 |  i = rovar
+  6  8  7  4  7  7  1  8  2  0 |  j = virag
+
